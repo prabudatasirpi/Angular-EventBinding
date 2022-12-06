@@ -1,0 +1,54 @@
+<div class="container">
+    <div id="eventbindingheader">
+        <h2 id="eventbinding-header">
+        Event<span>binding</span></h2>
+    
+        <h3 id="eventbinding-ex">
+            Example: 1
+        </h3>
+<table>
+    <thead>
+        <tr>
+            <th  id="main" attr.colspan="{{ColumnSpan}}">
+                Employee Details
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>First Name</td>
+            <td>{{FirstName}}</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>{{LastName}}</td>
+        </tr>
+        <tr *ngIf='ShowDetails'>
+            <td>Branch</td>
+            <td>{{Branch}}</td>
+        </tr>
+        <tr *ngIf='ShowDetails'>
+            <td>Mobile</td>
+            <td>{{Mobile}}</td>
+        </tr>
+        <tr *ngIf='ShowDetails'>
+            <td>Gender</td>
+            <td>{{Gender}}</td>
+        </tr>
+        <tr *ngIf='ShowDetails'>
+            <td>Age</td>
+            <td>{{Age}}</td>
+        </tr>
+    </tbody>
+</table>
+<br/>
+<button id="eventbinding-btn" (click)='ToggleDetails()'> {{ShowDetails ? 'Hide' : 'Show'}} Details </button>
+
+</div>
+<br><br>
+<h3 id="eventbinding-ex">
+    Example: 2
+</h3>
+
+<button id="eventbinding-btn"  type="button" (mouseover)="buttonClicked()">Click me</button>
+</div>

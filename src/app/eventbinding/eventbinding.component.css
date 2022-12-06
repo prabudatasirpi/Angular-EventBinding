@@ -1,0 +1,47 @@
+#eventbindingheader h2{
+    text-align: center;
+    color: #C3002F;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#eventbindingheader h2 span{
+    color: #1976D2;
+}
+#eventbinding-ex{
+    color: #1976D2;
+}
+table {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    border-collapse: collapse;
+    width: 60%;
+}
+td {
+    border: 1px solid black;
+}
+th#main{
+    text-align: center;
+    font-size: 20px;
+}
+thead{
+    border: 1px solid black;
+}
+button#eventbinding-btn{
+    float: left;
+    position: absolute;
+    background-color:#1976D2;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:7px;
+    min-height:30px; 
+    min-width: 120px;
+    color: #ffffff;
+    font-weight: 700;
+}
+button#eventbinding-btn:hover {
+    background-color:#C3002F;
+    transition: 0.7s;
+    color: #1976D2;
+}
